@@ -1,0 +1,12 @@
+button {
+    font-weight: 400;
+    font-size: 22;
+    padding: 8px 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btnHover:hover {
+    color: white;
+    background-color: rgb(86, 89, 92);
+}

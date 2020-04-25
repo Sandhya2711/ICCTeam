@@ -1,0 +1,42 @@
+/*Top Navbar*/
+
+li {
+    list-style: none;
+    display: inline;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: black;
+}
+
+span {
+    float: left;
+    background-color: rgb(197, 216, 231);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(194, 194, 194);
+}
+
+.main-menu {
+    background-color: #000;
+    transition: 0.4s;
+    width: 100%;
+    /* margin-left: 155px; */
+}
+
+.container {
+    width: 100%;
+}
+
+.clsActive {
+    text-decoration: underline;
+}

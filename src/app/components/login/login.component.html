@@ -1,0 +1,20 @@
+<div id="mainLogin">
+    <div id="login">
+        <div id="form">
+            <form (submit)="onSubmit(uname.value,pwd.value)">
+                <div class="form-group">
+                    <label>Enter UserName</label>
+                    <input #uname type="text" class="form-control" name="name" required>
+
+                </div>
+                <div class="form-group">
+                    <label>Enter Password</label>
+                    <input #pwd type="password" class="form-control" name="password" required>
+                </div>
+                <small class="text-danger">{{msg}} </small><br>
+                <button class="btn btn-primary" type="submit">Log In</button>
+
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+#login {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+#form {
+    padding: 2% 25% 2% 25%;
+    margin: 5%;
+    background-color: rgba(38, 156, 235, 0.938);
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#mainLogin {
+    background-image: url("../../../assets/images/home2.jpg");
+    position: relative;
+    height: 100%;
+}
+
+button {
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid rgb(43, 43, 107);
+    outline: none;
+    margin: 10px 0 0;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button:hover {
+    background-color: rgb(61, 66, 70);
+    color: white;
+    transition-duration: 0.3s;
+}

@@ -1,0 +1,7 @@
+<button *ngIf=!isAdded() [disabled]="isDisabled()" [ngClass]="{'btnHover':!isDisabled()}" (click)="add()"><span>
+    AddToTeam
+  </span></button>
+
+<button *ngIf=isAdded() [disabled]="isDisabled()" [ngClass]="{'btnHover':!isDisabled()}" (click)="remove()">
+    <span *ngIf="!isDisabled()">Remove</span><span  *ngIf="isDisabled()">AddToTeam</span>
+</button>

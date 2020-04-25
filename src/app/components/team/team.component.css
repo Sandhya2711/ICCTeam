@@ -1,0 +1,40 @@
+.team {
+    background-color: rgb(117, 110, 110, 0.5);
+    margin-left: 100px;
+    color: black;
+    margin-bottom: 20px;
+    /* position: relative; */
+    width: 300px;
+}
+
+.playerDetail {
+    /* color: white; */
+    display: inline-block;
+    text-align: justify;
+    margin-left: 200px;
+    /* background-color: rgb(129, 129, 126); */
+    padding: 0px 40px 50px 40px;
+    position: fixed;
+}
+
+h2,
+h1,
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 30;
+    font-family: sans-serif;
+}
+
+img {
+    width: 350px;
+    height: 300px;
+}
+
+.teamComponent {
+    margin-top: 20px;
+    display: inline-block;
+    /* background-color: turquoise; */
+    align-items: justify;
+}

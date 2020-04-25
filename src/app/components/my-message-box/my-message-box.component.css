@@ -1,0 +1,33 @@
+img {
+    display: block;
+    width: 200px;
+    height: 180px;
+}
+
+h3,
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 25;
+    font-family: sans-serif;
+}
+
+button {
+    align-items: center;
+    font-weight: 400;
+    font-size: 22;
+    padding: 8px 15px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(86, 89, 92);
+}
+
+.msg-box {
+    padding: 30px;
+    text-align: center;
+}

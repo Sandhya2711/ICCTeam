@@ -1,0 +1,15 @@
+<menu></menu>
+<div class="teamComponent">
+    <div *ngFor="let player of teamMembers" class="team">
+        <h2 (click)="playerDetail(player)">{{player.playerName}}</h2>
+    </div>
+
+</div>
+<div class="playerDetail" *ngIf=clicked>
+    <h1>Player Detials</h1>
+    <div>
+        <img src='{{ playerInfo.playerImage }}'>
+        <h2>{{playerInfo.playerName}}</h2>
+        <h3>{{playerInfo.playerPosition}}</h3>
+    </div>
+</div>

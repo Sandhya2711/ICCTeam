@@ -1,0 +1,39 @@
+<div id="check">
+    <menu></menu>
+    <div id="centerdiv">
+        <label>List of players</label>
+        <div class="innerdiv">
+            <div id="playerTable">
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Image</th>
+                            <th>Detail</th>
+                            <th>AddtoTeam</th>
+                        </tr>
+                    </thead>
+                    <tbody *ngFor="let player of players">
+                        <tr>
+                            <td>{{player.playerId}}</td>
+                            <td>{{player.playerName}}</td>
+                            <td>{{player.playerPosition}}</td>
+                            <td><img src="{{player.playerImage}}"></td>
+                            <td><button [disabled]="isDisabled()" [ngClass]="{'btnHover':!isDisabled()}" (click)="displayDetail(player)">Detail</button></td>
+                            <!-- <td><button [disabled]="isDisabled()" [ngClass]="{'btnHover':!isDisabled()}" (click)="add(player)"><addToTeam [player]=addPlayer></addToTeam></button></td> -->
+                            <td>
+                                <addToTeam [player]=player></addToTeam>
+                                <!-- <button [disabled]="isDisabled()" [ngClass]="{'btnHover':!isDisabled()}" (click)="add(player)">AddToTeam</button> -->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- <div *ngIf="clicked">xfkjhfdj
+                    <addToTeam [player]=addPlayer></addToTeam>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
